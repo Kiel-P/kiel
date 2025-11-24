@@ -20,7 +20,7 @@ pkg install git -y
 ```
 3. Clone this repo
 ```
-git clone https://github.com/Kiel-O/Kiheo
+git clone https://github.com/Kiel-O/kiel.git
 ```
 4. Open the folder
 ```
