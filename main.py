@@ -213,7 +213,16 @@ def main():
                 is_enterprise = input_14_1 == 'y'
          
             elif choice == "s":
-                get_packages_by_family("20342db0-e03e-4dfd-b2d0-cd315d7ddc36")       
+                get_packages_by_family("20342db0-e03e-4dfd-b2d0-cd315d7ddc36")  
+                option_code = cyber_input("Enter option code (or '99' to cancel)")
+                if option_code == "99":
+                    continue
+                show_package_details(
+                    AuthInstance.api_key,
+                    active_user["tokens"],
+                    option_code,
+                    False
+                )     
                 show_redeemables_menu(is_enterprise)
             elif choice == "00":
                 show_bookmark_menu()
