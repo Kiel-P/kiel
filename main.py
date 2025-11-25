@@ -76,6 +76,7 @@ def show_main_menu(profile):
         ("15", "Store Family List"),
         ("16", "Store Packages"),
         ("17", "Redemables"),
+        ("S", "Biz Stat"),
         ("R", "Register Dukcapil"),
         ("N", "Notifikasi"),
         ("V", "Validate MSISDN"),
@@ -210,7 +211,9 @@ def main():
             elif choice == "17":
                 input_14_1 = cyber_input("Is enterprise? (y/n)").lower()
                 is_enterprise = input_14_1 == 'y'
-                
+         
+            elif choice == "s":
+                get_packages_by_family("20342db0-e03e-4dfd-b2d0-cd315d7ddc36")       
                 show_redeemables_menu(is_enterprise)
             elif choice == "00":
                 show_bookmark_menu()
