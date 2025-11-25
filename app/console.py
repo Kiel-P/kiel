@@ -85,7 +85,13 @@ def clear():
 
 def print_ascii_art():
     art = r"""
- [neon_cyan]• K I H E O •
+ [neon_cyan]
+  _  _____ _   _ _____ ___
+ | |/ /_ _| | | | ____/ _ \
+ | ' / | || |_| |  _|| | | |
+ | . \ | ||  _  | |__| |_| |
+ |_|\_\___|_| |_|_____\___/
+
  [/neon_cyan]
     """
     console.print(Align.center(art))
