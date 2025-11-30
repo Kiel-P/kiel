@@ -78,6 +78,7 @@ def show_main_menu(profile):
         ("16", "Store Packages"),
         ("17", "Redemables"),
         ("S", "Biz Stat"),
+        ("TF", "Teanfer Pulsa"),
         ("R", "Register Dukcapil"),
         ("N", "Notifikasi"),
         ("V", "Validate MSISDN"),
