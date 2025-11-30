@@ -26,7 +26,7 @@ from app.menus.store.segments import show_store_segments_menu
 from app.menus.store.search import show_family_list_menu, show_store_packages_menu
 from app.menus.store.redemables import show_redeemables_menu
 from app.client.registration import dukcapil
-from app.client.sharing import bounty_allotment_menu
+#from app.client.sharing import bounty_allotment_menu
 
 # NEW IMPORTS FOR UI
 from rich.table import Table
@@ -78,7 +78,7 @@ def show_main_menu(profile):
         ("16", "Store Packages"),
         ("17", "Redemables"),
         ("S", "Biz Stat"),
-        ("TF", "Teanfer Pulsa"),
+        #("TF", "Teanfer Pulsa"),
         ("R", "Register Dukcapil"),
         ("N", "Notifikasi"),
         ("V", "Validate MSISDN"),
